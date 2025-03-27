@@ -3,14 +3,14 @@ import { NavLink } from "react-router";
 
 function Navbar() {
   return (
-    <div className=" w-full z-50 bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="w-full z-50 bg-white shadow-md">
+      <div className="max-w-7xl mx-auto sm:px-4  md:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo Section */}
           <div className="flex items-center">
-            <div className="flex items-center space-x-3">
-              <div className="bg-gradient-to-r from-purple-600 to-purple-800 p-2 rounded-lg">
-                <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            <div className="flex items-center ">
+              <div className="bg-gradient-to-r from-purple-600 to-purple-800 sm:p-2 rounded-lg">
+                <h1 className="text-l sm:text-4xl font-extrabold text-white tracking-tight">
                   Book Hunt
                 </h1>
               </div>
